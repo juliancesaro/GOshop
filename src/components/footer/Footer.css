@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  background: linear-gradient(-90deg, #03989e, #04abb1, #03989e);
+}
+.footer div {
+  width: 33.33%;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  cursor: pointer;
+}
+.footer img {
+  padding-left: 15px;
+}

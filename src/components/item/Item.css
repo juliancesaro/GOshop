@@ -1,0 +1,45 @@
+@media only screen and (min-width: 797px) {
+  .item {
+    width: 220px;
+    height: 150px;
+    margin: 30px 10px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 796px) {
+  .item {
+    width: 180px;
+    height: 150px;
+    margin: 30px 10px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 436px) {
+  .item {
+    width: 120px;
+    height: 150px;
+    margin: 30px 10px;
+    display: inline-block;
+  }
+}
+.user {
+  margin-bottom: 0;
+  font-size: large;
+}
+.title {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price {
+  font-weight: bold;
+  font-size: medium;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

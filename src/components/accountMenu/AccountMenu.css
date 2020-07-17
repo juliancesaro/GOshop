@@ -1,0 +1,73 @@
+@media only screen and (min-width: 700px) {
+  .accountMenu-wrapper {
+    position: absolute;
+    color: white;
+    right: 65%;
+    top: 59px;
+    width: 20rem;
+    clip: rect(0, 9999px, 9999px, -9999px);
+  }
+  .accountMenu-header {
+    padding: 1rem 1rem;
+    background: linear-gradient(-90deg, #03989e, #04abb1, #03989e);
+    z-index: 1000;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .accountMenu-wrapper {
+    position: absolute;
+    color: white;
+    right: 65%;
+    top: 117px;
+    width: 20rem;
+    clip: rect(0, 9999px, 9999px, -9999px);
+  }
+  .accountMenu-header {
+    padding: 1rem 1rem;
+    background: linear-gradient(-90deg, #03989e, #04abb1, #03989e);
+    z-index: 1000;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .accountMenu-wrapper {
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 117px;
+    width: 100vw;
+    clip: rect(0, 9999px, 9999px, -9999px);
+  }
+}
+.accountMenu.on {
+  transition: transform ease-in-out 0.3s, opacity ease-in 0.3s;
+  transform: translateY(0);
+  opacity: 1;
+}
+.accountMenu.off {
+  transition: transform ease-in-out 0.3s, opacity ease-out 0.3s;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.accountMenu-items {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.accountMenu-item {
+  margin: 0;
+}
+.account-link-wrapper {
+  text-align: right;
+  margin-top: 10px;
+  color: white;
+}
+.account-link {
+  color: white;
+}
+#accountMenu-greeting {
+  font-weight: bold;
+}
+#accountMenu-logout {
+  cursor: pointer;
+  text-decoration: underline;
+}

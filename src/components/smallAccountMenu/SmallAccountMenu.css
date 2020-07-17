@@ -1,0 +1,20 @@
+@media only screen and (min-width: 625px) {
+  .smallAccountMenu-wrapper {
+    position: absolute;
+    color: white;
+    right: 65%;
+    top: 59px;
+    width: 20rem;
+    clip: rect(0, 9999px, 9999px, -9999px);
+  }
+}
+@media only screen and (max-width: 625px) {
+  .smallAccountMenu-wrapper {
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 59px;
+    width: 100vw;
+    clip: rect(0, 9999px, 9999px, -9999px);
+  }
+}

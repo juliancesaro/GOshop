@@ -1,0 +1,21 @@
+html,
+#root,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.app {
+  background-color: #f1f1f2;
+}
+.app-body {
+  display: flex;
+  flex: 1;
+}
+.row {
+  max-width: 1039px;
+  margin-right: auto;
+  margin-left: auto;
+}

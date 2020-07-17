@@ -1,0 +1,13 @@
+.errorMessage {
+  background-color: #d0404b;
+  border-radius: 5px;
+}
+.successMessage {
+  background-color: #51a23d;
+  border-radius: 5px;
+}
+.messageText {
+  font-size: small;
+  color: white;
+  padding: 8px;
+}

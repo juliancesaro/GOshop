@@ -1,0 +1,9 @@
+.totals {
+  border: 2px solid #03989e;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.totals strong {
+  font-size: larger;
+}

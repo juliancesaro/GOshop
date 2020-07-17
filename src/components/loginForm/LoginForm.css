@@ -1,0 +1,16 @@
+.registerText {
+  display: flex;
+}
+.registerLink {
+  font-size: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 5px;
+}
+p.createAccount {
+  text-decoration: underline;
+  font-size: small;
+}
+.field {
+  border-color: green;
+}
