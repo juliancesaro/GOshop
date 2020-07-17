@@ -1,2 +1,2 @@
-# full-stack-store
- full-stack online store for COMP4060 CPD project
+# GOshop
+A full-stack mock online store made with ReactJS and Node.js.
