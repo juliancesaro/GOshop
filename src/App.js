@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom"
 import "./App.css"
 import NavBar from "./components/navbar/NavBar"
 import SmallNav from "./components/smallNav/SmallNav"
@@ -178,7 +178,7 @@ function App() {
           />
         </Form>
       ) : null}
-      <Router>
+      <HashRouter>
         <Switch>
           <Route path="/cart">
             <SmallNav
@@ -256,7 +256,7 @@ function App() {
           </Switch>
         </div>
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   )
 }
