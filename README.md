@@ -7,10 +7,15 @@ Live demo: [https://whispering-oasis-98910.herokuapp.com/](https://whispering-oa
 
 ## Scripts
 
-To check this project out, clone this repository and run:<br>
-'npm install' to install dependencies<br>
-'npm run build' to create a build of the front-end<br>
-Then use the scripts listed below.
+To check this project out, clone this repository and run:
+
+### 'npm install' 
+
+This install all required dependencies which can be view in 'package.json'.
+
+### 'npm run build' 
+
+This creates a build of the front-end.
 
 ### 'npm run dev'
 
