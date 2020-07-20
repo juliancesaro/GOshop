@@ -1,6 +1,8 @@
 # GOshop
 A full-stack mock online store made with ReactJS and Node.js, using MongoDB.
 
+![GOshop logo](src/images/logo.png)
+
 Live demo: [https://whispering-oasis-98910.herokuapp.com/](https://whispering-oasis-98910.herokuapp.com/)
 
 ---
@@ -11,7 +13,7 @@ To check this project out, clone this repository and run:
 
 ### 'npm install' 
 
-This install all required dependencies which can be view in 'package.json'.
+This installs all required dependencies which can be viewed in 'package.json'.
 
 ### 'npm run build' 
 
