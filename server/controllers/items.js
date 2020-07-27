@@ -39,26 +39,7 @@ itemsRouter.post("/", async (request, response) => {
 })
 
 itemsRouter.delete("/:id", async (request, response) => {
-  // const decodedToken = jwt.verify(request.token, process.env.SECRET)
-
-  // const item = await Item.findById(request.params.id)
-  // const user = await User.findById(item.user.toString())
-
-  // const userItems = user.items.filter(
-  //   (useritem) => useritem.toString() !== request.params.id
-  // )
-
-  // const newUser = {
-  //   items: userItems,
-  // }
-
-  // if (decodedToken.id === item.user.toString()) {
   await Item.findByIdAndRemove(request.params.id)
-  // await User.findByIdAndUpdate(item.user, newUser, {
-  //   new: true,
-  // })
-  // }
-
   response.status(204).end()
 })
 
