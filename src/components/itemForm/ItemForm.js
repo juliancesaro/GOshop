@@ -81,9 +81,7 @@ const ItemForm = ({
       } else if (
         error.response.data.error.includes("is longer than the maximum")
       ) {
-        setMessageText("Username too long!")
-      } else if (error.response.data.error.includes("to be unique")) {
-        setMessageText("Username taken!")
+        setMessageText("Title too long!")
       }
     }
   }
